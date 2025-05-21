@@ -9,7 +9,7 @@ import (
 	"gorm.io/gorm"
 )
 
-// TaskInput структура для создания/обновления задания
+// TaskInput структура для создания/update задания
 type TaskInput struct {
 	Question string `json:"question" validate:"required"`
 	Answer   string `json:"answer" validate:"required"`
